@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Images/Weather.jpg");
+    background-size: cover;
+}
+
+.navbar {
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.input-box {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+input {
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    padding-left: 0.7rem;
+}
+
+button {
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.result {
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+table {
+    border: 2px dashed white;
+}
+
+td {
+    border: 2px dotted white;
+}
